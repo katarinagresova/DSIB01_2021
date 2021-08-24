@@ -2,7 +2,10 @@ Introduction to Bioinformatics (DSIB01) is course taught at the Faculty of Medic
 
 ## Sylabus and schedule
 
-TBA
+|              | When              | Description | Course materials | References |
+|:-------------|:------------------|:------------|:-----------------|:-----------|
+| TBA          |                   |             |                  |            |
+
 
 ## Prerequisites
 
