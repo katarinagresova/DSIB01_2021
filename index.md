@@ -1,5 +1,3 @@
-# Introduction to Bioinformatics
-
 Introduction to Bioinformatics (DSIB01) is course taught at the Faculty of Science, Masaryk University.
 
 ## Introduction to Bioinformatics 2021 | practicals
