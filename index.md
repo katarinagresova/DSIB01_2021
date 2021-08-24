@@ -1,4 +1,7 @@
+---
+---
 
+@import "{{ site.theme }}";
 
 Introduction to Bioinformatics (DSIB01) is course taught at the Faculty of Medicine, Masaryk University.
 
