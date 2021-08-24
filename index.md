@@ -1,7 +1,7 @@
+## Course description
+
 Introduction to Bioinformatics (DSIB01) is course taught at the Faculty of Medicine, Masaryk University.
 
-## Introduction to Bioinformatics 2021 | practicals
+## Sylabus and schedule
 
-**Under construction!**
-
-You will find here infomation for DSIB01 practicals taughtin the fall semester 2021/2022.
+ - TBA
