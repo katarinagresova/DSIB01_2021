@@ -22,6 +22,8 @@ Version control is a system that manages changes to a file or files. These chang
 
 ### Collaboration
 
+You can pretty easily work on one project (or even one file) together with other people at the same time. Main copies of all your files are stored on the remote server and each team member can download copy to their local computer to work on it. After some experimenting and hard work, they can publish their changes to main location so everybody else can see them donwload them to their local location.
+
 ## Let's Git Started: Introduction to Git & GitHub
 
 Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. 
