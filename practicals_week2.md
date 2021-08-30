@@ -1,3 +1,5 @@
+# Git & GitHub
+
 This lecture should convince you that you need to complicate your life by learning one more set of commands and use some software for taking care of your files. It's all for the greater good.
 
 Answer these questions: 
