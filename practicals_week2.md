@@ -30,4 +30,4 @@ Git tracks the changes you make to files, so you have a record of what has been 
 Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. 
 So regardless of whether you write code that only you will see, or work as part of a team, Git will be useful for you.
 
-
+Git is the command line version control system (VCS) software which works on your local computer. You need Git to use GitHub. You can use Git locally without GitHub. GitHub is an internet hosting service for git repositories. Public repos are free; private repos are paid. As a shared space for repos, it allows you to do collaborative work.
