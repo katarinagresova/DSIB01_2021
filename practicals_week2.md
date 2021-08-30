@@ -39,7 +39,7 @@ Git is the command line version control system (VCS) software which works on you
 ### Repos and Branches
 
 Term              | Description 
------------------ | -----------
+:----------------- | :-----------
 Repository (repo) | The saved history of a folder and files, used by git.
 Branch            | Pointer to a specific version of your repo.
 Origin (repo)     | Your remote repo (on GitHub); it is the “origin” for your local copy. Either it is a repo you created yourself or it is a fork of someone else’s GitHub repo. 
@@ -51,7 +51,7 @@ Staging area      | Local place where you can put your local changes and label t
 ### Basic acctions
 
 Term              | Description 
------------------ | -----------
+:----------------- | :-----------
 Fork              | Make a copy of someone else’s GitHub repo in your own GitHub account.
 Clone             | Make a copy of the your GitHub repo on your local computer. In CLI: ‘git clone’ copies a remote repo to create a local repo with a remote called origin automatically set up.
 Pull              | You incorporate changes into your repo.
