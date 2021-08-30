@@ -31,3 +31,30 @@ Git also makes collaboration easier, allowing changes by multiple people to all 
 So regardless of whether you write code that only you will see, or work as part of a team, Git will be useful for you.
 
 Git is the command line version control system (VCS) software which works on your local computer. You need Git to use GitHub. You can use Git locally without GitHub. GitHub is an internet hosting service for git repositories. Public repos are free; private repos are paid. As a shared space for repos, it allows you to do collaborative work.
+
+## Some Git Terminology
+
+### Repos and Branches
+
+Term              | Description 
+----------------- | -----------
+Repository (repo) | The saved history of a folder and files, used by git.
+Branch            | Pointer to a specific version of your repo.
+Origin (repo)     | Your remote repo (on GitHub); it is the “origin” for your local copy. Either it is a repo you created yourself or it is a fork of someone else’s GitHub repo. 
+Upstream (repo)   | The main repo (on GitHub) from which you forked your GiHub repo.
+Local (repo)      | The repo on your local computer. 
+Main (master)     | The main branch (version) of your repo.
+Staging area      | Local place where you can put your local changes and label them before you send them to your remote repo.
+
+### Basic acctions
+
+Term              | Description 
+----------------- | -----------
+Fork              | Make a copy of someone else’s GitHub repo in your own GitHub account.
+Clone             | Make a copy of the your GitHub repo on your local computer. In CLI: ‘git clone’ copies a remote repo to create a local repo with a remote called origin automatically set up.
+Pull              | You incorporate changes into your repo.
+Add               | Adding snapshots of your changes to the *Staging area*.
+Commit            | Takes the files as they are in your *Staging area* and stores a snap shot of your files (changes) permanently in your Git directory.
+Push              | You send your files (changes) to the remote repo.
+Merge             | Incorporate changes into the branch you are on.
+Pull Request      | Term used in collaboration. You “issue a pull request” to the owner of the upstream repo asking them to pull your changes into their repo (accept your work).
