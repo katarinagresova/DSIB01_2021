@@ -48,7 +48,7 @@ Local (repo)      | The repo on your local computer.
 Main (master)     | The main branch (version) of your repo.
 Staging area      | Local place where you can put your local changes and label them before you send them to your remote repo.
 
-### Basic acctions
+### Basic actions
 
 Term              | Description 
 :----------------- | :-----------
@@ -60,3 +60,19 @@ Commit            | Takes the files as they are in your *Staging area* and store
 Push              | You send your files (changes) to the remote repo.
 Merge             | Incorporate changes into the branch you are on.
 Pull Request      | Term used in collaboration. You “issue a pull request” to the owner of the upstream repo asking them to pull your changes into their repo (accept your work).
+
+## Two Common Collaborative Workflows
+
+### Shared repository model
+
+ - For small projects where you are basically in the same physical space (e.g. lab with offices near each other).
+ - Be careful! You are cloning the main repository.
+ - Everyone has push and pull access to the central repo, so be careful and:
+   - Never commit to the master directly.
+   - Always do your work on a different branch from master.
+
+### Fork and pull model
+
+ - The owner/Project Leader of the upstream repo assigns rights to collaborators
+ - Collaborators do not have push access to main (upstream) repo
+ - Project Lead accepts Pull Requests (PRs) fro collaborators, reviews them, then merges them into main repo.
