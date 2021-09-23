@@ -9,6 +9,7 @@
 
 body {
     color: #444444;
+    text-shadow: none;
 }
 
 p {
@@ -50,21 +51,22 @@ ul, ol, dl {
 }
 
 .console header {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color: #555;
   height: 45px;
   line-height: 45px;
   text-align: center;
   color: #DDD;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .console .consolebody {
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   box-sizing: border-box;
   padding: 20px;
-  height: calc(100% - 40px);
   overflow: scroll;
   background-color: #000;
   color: #63de00;
