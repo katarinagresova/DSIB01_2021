@@ -15,3 +15,13 @@ The shell is a program where users can type commands. With the shell, it’s pos
 Using the shell will take some effort and some time to learn. While a GUI presents you with choices to select, CLI choices are not automatically presented to you, so you must learn a few commands like new vocabulary in a language you’re studying. However, unlike a spoken language, a small number of “words” (i.e. commands) gets you a long way, and we’ll cover those essential few today.
 
 In addition, the command line is often the easiest way to interact with remote machines and supercomputers. Familiarity with the shell is near essential to run a variety of specialized tools and resources including high-performance computing systems. As clusters and cloud computing systems become more popular for scientific data crunching, being able to interact with the shell is becoming a necessary skill. We can build on the command-line skills covered here to tackle a wide range of scientific questions and computational challenges.
+
+<div class="console">
+  <header>
+    <p>guest@antoineneff</p>
+  </header>
+  <div class="consolebody">
+    <p>$ type help to see a list of commands</p>
+    <p>$ </p>
+  </div>
+</div>
