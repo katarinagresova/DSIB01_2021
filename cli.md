@@ -21,7 +21,7 @@ In addition, the command line is often the easiest way to interact with remote m
     <p>guest@antoineneff</p>
   </header>
   <div class="consolebody">
-    <p>$ type help to see a list of commands</p>
-    <p>$ </p>
+    <p>type help to see a list of commands</p>
+    <p></p>
   </div>
 </div>
