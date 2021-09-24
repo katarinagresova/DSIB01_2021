@@ -94,3 +94,21 @@ If the shell can’t find a program whose name is the command you typed, it will
 </div>
 
 This might happen if the command was mis-typed or if the program corresponding to that command is not installed.
+
+## File system
+
+The part of the operating system responsible for managing files and directories is called the **file system**. It organizes our data into files, which hold information, and directories (also called ‘folders’), which hold files or other directories.
+
+First, let’s find out where we are by running a command called `pwd` (which stands for ‘print working directory’). Directories are like places — at any time while we are using the shell, we are in exactly one place called our **current working directory**. Commands mostly read and write files in the current working directory, i.e. ‘here’, so knowing where you are before running a command is important. `pwd` shows you where you are:
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ pwd</p>
+    <p>/Users/student</p>
+  </div>
+</div>
+
+Here, the computer’s response is `/Users/student`, which is our home directory.
