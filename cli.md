@@ -95,7 +95,7 @@ If the shell can’t find a program whose name is the command you typed, it will
 
 This might happen if the command was mis-typed or if the program corresponding to that command is not installed.
 
-## File system
+## Navigating Files and Directories
 
 The part of the operating system responsible for managing files and directories is called the **file system**. It organizes our data into files, which hold information, and directories (also called ‘folders’), which hold files or other directories.
 
@@ -112,3 +112,15 @@ First, let’s find out where we are by running a command called `pwd` (which st
 </div>
 
 Here, the computer’s response is `/Users/student`, which is our home directory.
+
+### File system
+
+To understand what a **home directory** is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem in a simplified view.
+
+![](https://github.com/katarinagresova/DSIB01_2021/raw/gh-pages/assets/img/file_system.png)
+
+At the top is the **root directory** that holds everything else. We refer to it using a slash character, `/`, on its own; this character is the leading slash in `/Users/student`.
+
+Inside that directory are several other directories: `bin` (which is where some built-in programs are stored), `data` (for miscellaneous data files), `Users` (where users’ personal directories are located), `tmp` (for temporary files that don’t need to be stored long-term), and so on.
+
+We know that our current working directory `/Users/student` is stored inside `/Users` because `/Users` is the first part of its name. Similarly, we know that `/Users` is stored inside the root directory `/` because its name begins with `/`.
