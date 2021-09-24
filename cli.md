@@ -95,6 +95,35 @@ If the shell can’t find a program whose name is the command you typed, it will
 
 This might happen if the command was mis-typed or if the program corresponding to that command is not installed.
 
+### Clearing your terminal
+
+If your screen gets too cluttered, you can clear your terminal using the `clear` command. You can still access previous commands using `↑` and `↓` to move line-by-line. 
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ls</p>
+    <p>Desktop     Downloads   Movies      Pictures</p>
+    <p>Documents   Library     Music       Public</p>
+    <p>$ ks</p>
+    <p>ks: command not found</p>
+    <p>$ clear</p>
+  </div>
+</div>
+
+Up to now, we already have our terminal full of information. We use `clear` command to get back to empty terminal.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ls</p>
+  </div>
+</div>
+
 ## Navigating Files and Directories
 
 The part of the operating system responsible for managing files and directories is called the **file system**. It organizes our data into files, which hold information, and directories (also called ‘folders’), which hold files or other directories.
