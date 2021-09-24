@@ -59,3 +59,18 @@ When we hit enter, we will get list the contents of the current directory:
   </div>
 </div>
 
+### Command not found
+
+If the shell can’t find a program whose name is the command you typed, it will print an error message such as:
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ks</p>
+    <p>ks: command not found</p>
+  </div>
+</div>
+
+This might happen if the command was mis-typed or if the program corresponding to that command is not installed.
