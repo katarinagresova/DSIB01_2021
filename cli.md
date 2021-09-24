@@ -32,3 +32,28 @@ When the shell is first opened, you are presented with a **prompt**, indicating 
 The shell typically uses `$ ` as the prompt, but may use a different symbol. In the examples for this lesson, we’ll show the prompt as `$ ` . Most importantly: when typing commands, either from these lessons or from other sources, do not type the prompt, only the commands that follow it. Also note that after you type a command, you have to press the `Enter` key to execute it.
 
 The prompt is followed by a **text cursor**, a character that indicates the position where your typing will appear. The cursor is usually a flashing or solid block, but it can also be an underscore or a pipe. You may have seen it in a text editor program, for example.
+
+### First command
+
+So let’s try our first command, `ls` which is short for listing. This command will list the contents of the current directory:
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ls</p>
+  </div>
+</div>
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ls</p>
+    <p>Desktop     Downloads   Movies      Pictures</p>
+    <p>Documents   Library     Music       Public</p>
+  </div>
+</div>
+
