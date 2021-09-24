@@ -117,7 +117,7 @@ Here, the computer’s response is `/Users/student`, which is our home directory
 
 To understand what a **home directory** is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem in a simplified view.
 
-![](https://github.com/katarinagresova/DSIB01_2021/raw/gh-pages/assets/img/file_system.png)
+![](https://github.com/katarinagresova/DSIB01_2021/raw/gh-pages/assets/img/file_system.svg)
 
 At the top is the **root directory** that holds everything else. We refer to it using a slash character, `/`, on its own; this character is the leading slash in `/Users/student`.
 
