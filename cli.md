@@ -35,7 +35,7 @@ The prompt is followed by a **text cursor**, a character that indicates the posi
 
 ### First command
 
-So let’s try our first command, `ls` which is short for listing. This command will list the contents of the current directory:
+So let’s try our first command, `ls` which is short for listing.
 
 <div class="console">
   <header>
@@ -45,6 +45,8 @@ So let’s try our first command, `ls` which is short for listing. This command 
     <p>$ ls</p>
   </div>
 </div>
+
+When we hit enter, we will get list the contents of the current directory:
 
 <div class="console">
   <header>
