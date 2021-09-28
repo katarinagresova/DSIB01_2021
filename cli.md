@@ -134,7 +134,7 @@ First, let’s find out where we are by running a command called `pwd` (which st
   </div>
 </div>
 
-Here, the computer’s response is `/Users/student`, which is our home directory.
+Here, the computer’s response is `/Users/student`, which is our **home directory**.
 
 ### File system
 
@@ -191,3 +191,33 @@ You'll find that a lot of stuff in Linux can be achieved in several different wa
  - `..` (dotdot)- This is a reference to the parent directory. You can use this several times in a path to keep going up the hierarchy. eg if you were in the path `/Users/student` you could run the command ls `../../` and this would do a listing of the root directory.
 
 So now you are probably starting to see that we can refer to a location in a variety of different ways. Some of you may be asking the question, which one should I use? The answer is that you can use any method you like to refer to a location. Whenever you refer to a file or directory on the command line you are actually referring to a path and your path can be constructed using any of these elements. The best approach is whichever is the most convenient for you.
+
+### Moving around
+
+In order to move around in the system we use a command called `cd` which stands for **change directory**. The command `cd` may be run without a location and then it will always take you back to your home directory. But usually it will be run with a single command line argument which is the location we would like to change into. The location is specified as a path and as such may be specified as either an absolute or relative path and using any of the path building blocks mentioned above.
+
+Result of `cd` command is that our current working directory will change.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ cd ../</p>
+    <p>$ pwd</p>
+    <p>/Users</p>
+  </div>
+</div>
+
+Now let's try going back to home directory.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ cd</p>
+    <p>$ pwd</p>
+    <p>/Users/student</p>
+  </div>
+</div>
