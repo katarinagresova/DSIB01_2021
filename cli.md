@@ -147,3 +147,37 @@ At the top is the **root directory** that holds everything else. We refer to it 
 Inside that directory are several other directories: `bin` (which is where some built-in programs are stored), `data` (for miscellaneous data files), `Users` (where users’ personal directories are located), `tmp` (for temporary files that don’t need to be stored long-term), and so on.
 
 We know that our current working directory `/Users/student` is stored inside `/Users` because `/Users` is the first part of its name. Similarly, we know that `/Users` is stored inside the root directory `/` because its name begins with `/`.
+
+Typically, when you open a new command prompt, you will be in your home directory to start.
+
+### Absolute and Relative Paths
+
+Whenever we refer to either a file or directory on the command line, we are in fact referring to a path. ie. a path is a means to get to a particular file or directory on the system.
+
+There are 2 types of paths we can use, **absolute** and **relative**. Whenever we refer to a file or directory, we can, in fact, use either type of path (either way, the system will still be directed to the same location).
+ - Absolute paths specify a location (file or directory) in relation to the root directory. You can identify them easily as they always begin with a forward slash ( / )
+ - Relative paths specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
+
+To demonstrate, we can use command `ls` to look, what we have in `Desktop` folder. We know, that `Desktop` is in our home directory, so we use path `/Users/student/Desktop` as parameter for `ls` command.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ls /Users/student/Desktop</p>
+    <p>TODO</p>
+  </div>
+</div>
+
+Since we are already located in our home directory (as we verified by running `pwd` command), we can also reference path relatively from our current location and write just `Desktop`.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ls Desktop</p>
+    <p>TODO</p>
+  </div>
+</div>
