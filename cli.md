@@ -181,3 +181,13 @@ Since we are already located in our home directory (as we verified by running `p
     <p>TODO</p>
   </div>
 </div>
+
+### More on Paths
+
+You'll find that a lot of stuff in Linux can be achieved in several different ways. Paths are no different. Here are some more building blocks you may use to help build your paths.
+
+ - `~` (tilde) - This is a shortcut for your home directory. eg, if your home directory is `/Users/student` then you could refer to the directory `Desktop` with the path `/Users/student/Desktop` or `~/Desktop`
+ - `.` (dot) - This is a reference to your current directory. eg in the example above we referred to `Desktop` with a relative path. It could also be written as `./Desktop` (Normally this extra bit is not required but in later sections we will see where it comes in handy).
+ - `..` (dotdot)- This is a reference to the parent directory. You can use this several times in a path to keep going up the hierarchy. eg if you were in the path `/Users/student` you could run the command ls `../../` and this would do a listing of the root directory.
+
+So now you are probably starting to see that we can refer to a location in a variety of different ways. Some of you may be asking the question, which one should I use? The answer is that you can use any method you like to refer to a location. Whenever you refer to a file or directory on the command line you are actually referring to a path and your path can be constructed using any of these elements. The best approach is whichever is the most convenient for you.
