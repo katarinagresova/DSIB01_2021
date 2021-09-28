@@ -203,6 +203,8 @@ Result of `cd` command is that our current working directory will change.
     <p>Terminal</p>
   </header>
   <div class="consolebody">
+    <p>$ pwd</p>
+    <p>/Users/student</p>
     <p>$ cd ../</p>
     <p>$ pwd</p>
     <p>/Users</p>
