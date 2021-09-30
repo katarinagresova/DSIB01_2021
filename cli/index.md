@@ -25,11 +25,17 @@ This lesson guides you through the basics of file systems and the command line i
  - **`cd`:** change current working directory
  - **`pwd`:** print current working directory
  - **`man`:** look up the manual page for a particular command
+ - **`mkdir`:** create a directory
+ - **`rmdir`:** remove and empty directory
+ - **`cp`:** copy a file or directory
+ - **`mv`:** move a file or directory
+ - **`rm`:** remove a file
 
 ### Concepts
 
  - **relative path:** a file or directory location relative to where we currently are in the file system
  - **absolute path:** a file or directory location in relation to the root of the file system
+ - The Linux command line does not have an undo feature. Perform destructive actions carefully.
 
 ## References
 
