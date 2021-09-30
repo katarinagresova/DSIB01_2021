@@ -138,4 +138,4 @@ Move around a bit.
 
 ---
 
-[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/help.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Next page](https://katarinagresova.github.io/DSIB01_2021/cli/help.html)
+[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/help.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Next page](https://katarinagresova.github.io/DSIB01_2021/cli/files.html)
