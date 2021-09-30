@@ -43,7 +43,7 @@ There are a few useful options available for `mkdir`. The most used one is `-p` 
 
 To see other options, you can look into man pages.
 
-### Good names for files and directories
+### Good names for Files and Directories
 
 Complicated names of files and directories can make your life painful when working on the command line. Here we provide a few useful tips for the names of your files and directories.
 
@@ -166,6 +166,36 @@ We can also copy a directory and all its contents by using the recursive option 
     <p>text.txt</p>
   </div>
 </div> 
+
+### Removing Files and Directories
+
+As with `rmdir`, removing a file is an action that may not be undone so be careful. The command to remove or delete a file is `rm` which stands for **remove**.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ rm notes.txt</p>
+    <p>$ ls</p>
+    <p>foo backup_foo</p>
+  </div>
+</div> 
+
+`rm` can remove a directory and all its contents if we use the recursive option `-r`, and it will do so without any confirmation prompts.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ rm backup_foo</p>
+    <p>$ ls</p>
+    <p>foo</p>
+  </div>
+</div> 
+
+Given that there is no way to retrieve files deleted using the shell, `rm -r` should be used with great caution (you might consider adding the interactive option `rm -r -i`).
 
 ---
 
