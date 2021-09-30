@@ -87,4 +87,4 @@ Of course, there is a third way to access help for commands: searching the inter
 
 ---
 
-[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/filesystem.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Next page](https://katarinagresova.github.io/DSIB01_2021/cli/files.html)
+[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/intro.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Next page](https://katarinagresova.github.io/DSIB01_2021/cli/filesystem.html)
