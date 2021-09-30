@@ -103,3 +103,34 @@ Let’s type in a few lines of text. Once we’re happy with our text, we can pr
     <p>draft.txt</p>
   </div>
 </div> 
+
+### Moving Files and Directories
+
+The command we use for this is `mv` which stands for **move**. `mv` takes to parameters: source and destination. Note that both the source and destination are paths. This means we may refer to them using both absolute and relative paths.
+
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ mv draft.txt foo/</p>
+    <p>$ ls foo</p>
+    <p>draft.txt</p>
+  </div>
+</div> 
+
+When destination argument is directory, specified file is moved into this directory and its name is not changed. 
+
+We might also use `mv` for renaming files. We specify destination as part to a file. One must be careful when specifying the target file name, since mv will silently overwrite any existing file with the same name, which could lead to data loss. An additional option, `mv -i` (or `mv --interactive`), can be used to make mv ask you for confirmation before overwriting.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ mv foo/draft.txt foo/text.txt</p>
+    <p>$ ls foo</p>
+    <p>text.txt</p>
+  </div>
+</div> 
