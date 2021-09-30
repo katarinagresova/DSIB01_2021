@@ -64,7 +64,7 @@ The command to remove a directory is `rmdir`, short for remove directory. This w
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ cd<.p>
+    <p>$ cd</p>
     <p>$ pwd</p>
     <p>/home/student</p>
     <p>$ ls test_dir/foo</p>
@@ -75,3 +75,31 @@ The command to remove a directory is `rmdir`, short for remove directory. This w
   </div>
 </div>
 
+### Creating a File
+  
+One way to create a file is to open it in a text editor - text editor will create this file if doesn't exist. Let's use text editor called `nano`.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ cd test_dir</p>
+    <p>$ nano draft.txt</p>
+  </div>
+</div> 
+
+Let’s type in a few lines of text. Once we’re happy with our text, we can press `Ctrl`+`O` to write our data to disk (we’ll be asked what file we want to save this to: press `Return` to accept the suggested default of `draft.txt`). Once our file is saved, we can use `Ctrl`+`X` to quit the editor and return to the shell.
+
+`nano` doesn’t leave any output on the screen after it exits, but `ls` now shows that we have created a file called `draft.txt`
+
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ls</p>
+    <p>draft.txt</p>
+  </div>
+</div> 
