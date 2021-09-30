@@ -74,8 +74,8 @@ When we hit enter, we will get list the contents of the current directory:
   </header>
   <div class="consolebody">
     <p>$ ls</p>
-    <p>anaconda3     Documents   Music      Public     Templates</p>
-    <p>Desktop   Downloads     Pictures       snap     Videos</p>
+    <p>anaconda3     Documents   DSIB01demo    Pictures     snap      Videos</p>
+    <p>Desktop   Downloads     Music     Public     Templates</p>
   </div>
 </div>
 
@@ -105,8 +105,8 @@ If your screen gets too cluttered, you can clear your terminal using the `clear`
   </header>
   <div class="consolebody">
     <p>$ ls</p>
-    <p>anaconda3     Documents   Music      Public     Templates</p>
-    <p>Desktop   Downloads     Pictures       snap     Videos</p>
+    <p>anaconda3     Documents   DSIB01demo    Pictures     snap      Videos</p>
+    <p>Desktop   Downloads     Music     Public     Templates</p>
     <p>$ ks</p>
     <p>ks: command not found</p>
     <p>$ clear</p>
@@ -164,27 +164,27 @@ There are 2 types of paths we can use, **absolute** and **relative**. Whenever w
  - Absolute paths specify a location (file or directory) in relation to the root directory. You can identify them easily as they always begin with a forward slash ( / )
  - Relative paths specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
 
-To demonstrate, we can use command `ls` to look, what we have in `Desktop` folder. We know, that `Desktop` is in our home directory, so we use path `/home/student/Desktop` as parameter for `ls` command.
+To demonstrate, we can use command `ls` to look, what we have in `DSIB01demo` folder. We know, that `Desktop` is in our home directory, so we use path `/home/student/DSIB01demo` as parameter for `ls` command.
 
 <div class="console">
   <header>
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ ls /home/student/Desktop</p>
-    <p>TODO</p>
+    <p>$ ls /home/student/DSIB01demo</p>
+    <p>demo files LICENSE playground README.md scripts</p>
   </div>
 </div>
 
-Since we are already located in our home directory (as we verified by running `pwd` command), we can also reference path relatively from our current location and write just `Desktop`.
+Since we are already located in our home directory (as we verified by running `pwd` command), we can also reference path relatively from our current location and write just `DSIB01demo`.
 
 <div class="console">
   <header>
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ ls Desktop</p>
-    <p>TODO</p>
+    <p>$ ls DSIB01demo</p>
+    <p>demo files LICENSE playground README.md scripts</p>
   </div>
 </div>
 
