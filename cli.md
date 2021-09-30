@@ -232,7 +232,7 @@ Now let's try going back to home directory.
 
 `cd` without an argument will return you to your home directory, which is great if you’ve gotten lost in your own filesystem.
 
-Move around a bit
+Move around a bit.
 
 
 <div class="console">
