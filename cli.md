@@ -298,7 +298,7 @@ This command will turn your terminal into a page with a description of the `ls` 
     <p>&emsp;&emsp;List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.</p>
     <p>&emsp;</p>
     <p>&emsp;&emsp;Mandatory arguments to long options are mandatory for short options too.</p>
-    <p></p>
+    <p>&emsp;</p>
     <p>&emsp;&emsp;-a, --all</p>
     <p>&emsp;&emsp;&emsp;&emsp;do not ignore entries starting with .</p>
     <p>&emsp;</p>
