@@ -40,3 +40,26 @@ There are a few useful options available for `mkdir`. The most used one is `-p` 
     <p>/home/student/test_dir/foo/bar</p>
   </div>
 </div>
+
+To see other options, you can look into man pages.
+
+## Removing a Directory
+
+The command to remove a directory is `rmdir`, short for remove directory. This will remove an empty directory and it also support a `-p` option to remove parent directories as well. One thing to note, however, is that there is no undo when it comes to the command line on Linux (Linux GUI desktop environments typically do provide an undo feature but the command line does not). Just be careful with what you do.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ cd<.p>
+    <p>$ pwd</p>
+    <p>/home/student</p>
+    <p>$ ls test_dir/foo</p>
+    <p>bar</p>
+    <p>$ rmdir test_dir/foo/bar</p>
+    <p>$ ls test_dir/foo</p>
+    <p>&nbsp;</p>
+  </div>
+</div>
+
