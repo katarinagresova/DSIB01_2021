@@ -59,7 +59,7 @@ The command to remove a directory is `rmdir`, short for remove directory. This w
     <p>bar</p>
     <p>$ rmdir test_dir/foo/bar</p>
     <p>$ ls test_dir/foo</p>
-    <p>&nbsp;</p>
+    <p>&emsp;</p>
   </div>
 </div>
 
