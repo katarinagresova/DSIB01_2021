@@ -337,9 +337,9 @@ Another option, how to find out how to use a command and what options it accepts
     <p>Sort entries alphabetically if neither -cftuvSUX nor --sort is specified.</p>
     <p>&emsp;</p>
     <p>Mandatory arguments to long options are mandatory for short options, too.</p>
-    <p>&emsp;-a, --all&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;do not ignore entries starting with .</p>
+    <p>&emsp;-a, --all&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;do not ignore entries starting with .</p>
     <p>&emsp;-A, --almost-all&emsp;&emsp;do not list implied . and ..</p>
-    <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;--author&emsp;&emsp;&emsp;&emsp;&emsp;with -l, print the author of each file</p>
+    <p>&emsp;&emsp;&emsp;&emsp;&emsp;--author&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;with -l, print the author of each file</p>
     <p>&emsp;</p>
     <p>...</p>
   </div>
