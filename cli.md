@@ -279,22 +279,22 @@ To open manual page for `ls` command, you type `man ls`.
   <div class="consolebody">
     <p>$ man ls</p>
     <p>LS(1)</p>
-    <p></p>
+    <p>&emsp;</p>
     <p>NAME</p>
-    <p>&emsp;ls - list directory content</p>
+    <p>&emsp;&emsp;ls - list directory content</p>
     <p>SYNOPSYS</p>
-    <p>&emsp;ls [OPTION]... [FILE]...</p>
+    <p>&emsp;&emsp;ls [OPTION]... [FILE]...</p>
     <p>DESCRIPTION</p>
-    <p>&emsp;List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.</p>
+    <p>&emsp;&emsp;List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.</p>
+    <p>&emsp;</p>
+    <p>&emsp;&emsp;Mandatory arguments to long options are mandatory for short options too.</p>
     <p></p>
-    <p>&emsp;Mandatory arguments to long options are mandatory for short options too.</p>
-    <p></p>
-    <p>&emsp;-a, --all</p>
-    <p>&emsp;&emsp;do not ignore entries starting with .</p>
-    <p></p>
-    <p>&emsp;-A, --almost-all</p>
-    <p>&emsp;&emsp;do not list implied . and ..</p>
-    <p></p>
+    <p>&emsp;&emsp;-a, --all</p>
+    <p>&emsp;&emsp;&emsp;&emsp;do not ignore entries starting with .</p>
+    <p>&emsp;</p>
+    <p>&emsp;&emsp;-A, --almost-all</p>
+    <p>&emsp;&emsp;&emsp;&emsp;do not list implied . and ..</p>
+    <p>&emsp;&emsp;</p>
     <p>...</p>
   </div>
 </div>
