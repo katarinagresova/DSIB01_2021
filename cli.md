@@ -262,6 +262,43 @@ Move around a bit.
   </div>
 </div>
 
+## Getting help
+
+The Linux command line offers a wealth of power and opportunity. However, it might be hard to remember a large number of details. Fortunately for us there is an easy to use resource that can inform us about all the great things we can do on the command line.
+
+### Manual pages
+
+The manual pages are a set of pages that explain every command available on your system including what they do, the specifics of how you run them and what command line arguments they accept. Some of them are a little hard to get your head around but they are fairly consistent in their structure so once you get the hang of it it's not too bad. 
+
+To open manual page for `ls` command, you type `man ls`.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ man ls</p>
+    <p>LS(1)</p>
+    <p></p>
+    <p>NAME</p>
+    <p>&emsp;ls - list directory content</p>
+    <p>SYNOPSYS</p>
+    <p>&emsp;ls [OPTION]... [FILE]...</p>
+    <p>DESCRIPTION</p>
+    <p>&emsp;List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.</p>
+    <p></p>
+    <p>&emsp;Mandatory arguments to long options are mandatory for short options too.</p>
+    <p></p>
+    <p>&emsp;-a, --all</p>
+    <p>&emsp;&emsp;do not ignore entries starting with .</p>
+    <p></p>
+    <p>&emsp;-A, --almost-all</p>
+    <p>&emsp;&emsp;do not list implied . and ..</p>
+    <p></p>
+    <p>...</p>
+  </div>
+</div>
+
 ## Summary
 
 ### Commands
