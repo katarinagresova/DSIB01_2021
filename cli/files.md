@@ -166,3 +166,7 @@ We can also copy a directory and all its contents by using the recursive option 
     <p>text.txt</p>
   </div>
 </div> 
+
+---
+
+[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/filesystem.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | Next page
