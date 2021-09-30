@@ -349,9 +349,10 @@ Another option, how to find out how to use a command and what options it accepts
 
 ### Commands
 
- - **`ls`:** lists a content of a directory
- - **`cd`:** changes current working directory
- - **`pwd`:** prints current working directory
+ - **`ls`:** list a content of a directory
+ - **`cd`:** change current working directory
+ - **`pwd`:** print current working directory
+ - **`man`:** look up the manual page for a particular command
 
 ### Concepts
 
