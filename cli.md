@@ -229,3 +229,35 @@ Now let's try going back to home directory.
     <p>/home/student</p>
   </div>
 </div>
+
+`cd` without an argument will return you to your home directory, which is great if you’ve gotten lost in your own filesystem.
+
+Move around a bit
+
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ pwd</p>
+    <p>/home/student</p>
+    <p>$ cd DSIB01demo</p>
+    <p>$ ls</p>
+    <p>demo files LICENSE playground README.md scripts</p>
+    <p>$ cd /</p>
+    <p>$ pwd</p>
+    <p>/</p>
+    <p>$ ls</p>
+    <p>bin dev lib libx32 mnt root snap ...</p>
+    <p>$ cd ~/Documents</p>
+    <p>$ pwd</p>
+    <p>/home/student/Documents</p>
+    <p>$ cd ../../</p>
+    <p>$ pwd</p>
+    <p>/home</p>
+    <p>$ cd</p>
+    <p>$ pwd</p>
+    <p>/home/student</p>
+  </div>
+</div>
