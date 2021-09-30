@@ -345,6 +345,10 @@ Another option, how to find out how to use a command and what options it accepts
   </div>
 </div>
 
+### The Internet
+
+Of course, there is a third way to access help for commands: searching the internet via your web browser. When using internet search, including the phrase `unix man page` in your search query will help to find relevant results.
+
 ## Summary
 
 ### Commands
