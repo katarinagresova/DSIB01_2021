@@ -30,6 +30,5 @@ In order to achieve this task, you needs to know how to:
 
 ---
 
-[Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html)
-[Next page](https://katarinagresova.github.io/DSIB01_2021/cli/intro.html)
-[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/index.html)
+[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Next page](https://katarinagresova.github.io/DSIB01_2021/cli/intro.html)
+
