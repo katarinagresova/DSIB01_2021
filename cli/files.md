@@ -134,3 +134,35 @@ We might also use `mv` for renaming files. We specify destination as part to a f
     <p>text.txt</p>
   </div>
 </div> 
+
+### Copying Files and Directories
+
+The `cp` command works very much like `mv`, except it copies a file instead of moving it. We can check that it did the right thing using `ls` with two paths as arguments — like most Unix commands, ls can be given multiple paths at once.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ cp foo/text.txt notes.txt</p>
+    <p>$ ls foo/text.txt notes.txt</p>
+    <p>foo/text.txt notes.txt</p>
+  </div>
+</div> 
+
+We can also copy a directory and all its contents by using the recursive option `-r`, e.g. to back up a directory.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ cp -r foo backup_foo</p>
+    <p>$ ls foo backup_foo</p>
+    <p>backup_foo:</p>
+    <p>text.txt</p>
+    <p>&emsp;</p>
+    <p>foo:</p>
+    <p>text.txt</p>
+  </div>
+</div> 
