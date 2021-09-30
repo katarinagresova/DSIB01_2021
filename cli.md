@@ -68,8 +68,8 @@ When we hit enter, we will get list the contents of the current directory:
   </header>
   <div class="consolebody">
     <p>$ ls</p>
-    <p>Desktop     Downloads   Movies      Pictures</p>
-    <p>Documents   Library     Music       Public</p>
+    <p>anaconda3     Documents   Music      Public     Templates</p>
+    <p>Desktop   Downloads     Pictures       snap     Videos</p>
   </div>
 </div>
 
@@ -99,8 +99,8 @@ If your screen gets too cluttered, you can clear your terminal using the `clear`
   </header>
   <div class="consolebody">
     <p>$ ls</p>
-    <p>Desktop     Downloads   Movies      Pictures</p>
-    <p>Documents   Library     Music       Public</p>
+    <p>anaconda3     Documents   Music      Public     Templates</p>
+    <p>Desktop   Downloads     Pictures       snap     Videos</p>
     <p>$ ks</p>
     <p>ks: command not found</p>
     <p>$ clear</p>
@@ -130,11 +130,11 @@ First, let’s find out where we are by running a command called `pwd` (which st
   </header>
   <div class="consolebody">
     <p>$ pwd</p>
-    <p>/Users/student</p>
+    <p>/home/student</p>
   </div>
 </div>
 
-Here, the computer’s response is `/Users/student`, which is our **home directory**.
+Here, the computer’s response is `/home/student`, which is our **home directory**.
 
 ### File system
 
@@ -142,11 +142,11 @@ To understand what a **home directory** is, let’s have a look at how the file 
 
 ![](https://github.com/katarinagresova/DSIB01_2021/raw/gh-pages/assets/img/file_system.svg)
 
-At the top is the **root directory** that holds everything else. We refer to it using a slash character, `/`, on its own; this character is the leading slash in `/Users/student`.
+At the top is the **root directory** that holds everything else. We refer to it using a slash character, `/`, on its own; this character is the leading slash in `/home/student`.
 
-Inside that directory are several other directories: `bin` (which is where some built-in programs are stored), `data` (for miscellaneous data files), `Users` (where users’ personal directories are located), `tmp` (for temporary files that don’t need to be stored long-term), and so on.
+Inside that directory are several other directories: `bin` (which is where some built-in programs are stored), `data` (for miscellaneous data files), `home` (where users’ personal directories are located), `tmp` (for temporary files that don’t need to be stored long-term), and so on.
 
-We know that our current working directory `/Users/student` is stored inside `/Users` because `/Users` is the first part of its name. Similarly, we know that `/Users` is stored inside the root directory `/` because its name begins with `/`.
+We know that our current working directory `/home/student` is stored inside `/home` because `/home` is the first part of its name. Similarly, we know that `/home` is stored inside the root directory `/` because its name begins with `/`.
 
 Typically, when you open a new command prompt, you will be in your home directory to start.
 
@@ -165,7 +165,7 @@ To demonstrate, we can use command `ls` to look, what we have in `Desktop` folde
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ ls /Users/student/Desktop</p>
+    <p>$ ls /home/student/Desktop</p>
     <p>TODO</p>
   </div>
 </div>
@@ -204,10 +204,10 @@ Result of `cd` command is that our current working directory will change.
   </header>
   <div class="consolebody">
     <p>$ pwd</p>
-    <p>/Users/student</p>
+    <p>/home/student</p>
     <p>$ cd ../</p>
     <p>$ pwd</p>
-    <p>/Users</p>
+    <p>/home</p>
   </div>
 </div>
 
@@ -220,6 +220,6 @@ Now let's try going back to home directory.
   <div class="consolebody">
     <p>$ cd</p>
     <p>$ pwd</p>
-    <p>/Users/student</p>
+    <p>/home/student</p>
   </div>
 </div>
