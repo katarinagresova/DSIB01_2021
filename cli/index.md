@@ -14,6 +14,7 @@ This lesson guides you through the basics of file systems and the command line i
 - [Gentle introduction](https://katarinagresova.github.io/DSIB01_2021/cli/intro.html)
 - [Navigating Files and Directories](https://katarinagresova.github.io/DSIB01_2021/cli/filesystem.html)
 - [Getting help](https://katarinagresova.github.io/DSIB01_2021/cli/help.html)
+- [Exercise](https://katarinagresova.github.io/DSIB01_2021/cli/exercise.html)
 
 ## Summary
 
