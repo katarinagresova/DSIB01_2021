@@ -261,3 +261,16 @@ Move around a bit.
     <p>/home/student</p>
   </div>
 </div>
+
+## Summary
+
+### Commands
+
+ - **`ls`:** lists a content of a directory
+ - **`cd`:** changes current working directory
+ - **`pwd`:** prints current working directory
+
+### Concepts
+
+ - **relative path:** a file or directory location relative to where we currently are in the file system
+ - **absolute path:** a file or directory location in relation to the root of the file system
