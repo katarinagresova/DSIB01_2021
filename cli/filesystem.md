@@ -136,4 +136,6 @@ Move around a bit.
   </div>
 </div>
 
+---
+
 [Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/intro.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Next page](https://katarinagresova.github.io/DSIB01_2021/cli/help.html)
