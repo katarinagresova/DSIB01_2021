@@ -41,6 +41,11 @@ ul, ol, dl {
     margin-left: 20px;
 }
 
+/* No margin in nested lists */
+ul ul {
+    margin-bottom: 0px;
+}
+
 #main_content h2 {
   margin-top: 40px;
   font-size: 28px;
