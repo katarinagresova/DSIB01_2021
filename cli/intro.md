@@ -86,4 +86,6 @@ Up to now, we already have our terminal full of information. We use `clear` comm
   </div>
 </div>
 
+---
+
 [Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/motivation.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Next page](https://katarinagresova.github.io/DSIB01_2021/cli/filesystem.html)
