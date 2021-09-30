@@ -322,7 +322,7 @@ To navigate through the man pages, you may use `↑` and `↓` to move line-by-l
 
 To **quit** the man pages, press `Q`.
 
-### &ndash;&ndash;help
+### &ndash; &ndash;help
 
 Another option, how to find out how to use a command and what options it accepts, is to pass a `--help` option to the command. It will print message similar to man page. 
 
