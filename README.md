@@ -2,6 +2,5 @@ Introduction to Bioinformatics (DSIB01) is course taught at the Faculty of Medic
 
 ## Materials
 
- - [Intro to Linux and CLI](https://katarinagresova.github.io/DSIB01_2021/cli.html)
- - Biological databases (TBA)
+ - [Intro to Linux and CLI](https://katarinagresova.github.io/DSIB01_2021/cli/index.html)
  - Data preprocessing (TBA)
