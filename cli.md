@@ -278,6 +278,16 @@ To open manual page for `ls` command, you type `man ls`.
   </header>
   <div class="consolebody">
     <p>$ man ls</p>
+  </div>
+</div>
+
+This command will turn your terminal into a page with a description of the `ls` command and its options.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
     <p>LS(1)</p>
     <p>&emsp;</p>
     <p>NAME</p>
@@ -294,10 +304,25 @@ To open manual page for `ls` command, you type `man ls`.
     <p>&emsp;</p>
     <p>&emsp;&emsp;-A, --almost-all</p>
     <p>&emsp;&emsp;&emsp;&emsp;do not list implied . and ..</p>
-    <p>&emsp;&emsp;</p>
+    <p>&emsp;</p>
+    <p>&emsp;&emsp;-l</p>
+    <p>&emsp;&emsp;&emsp;&emsp;use a long listing format</p>
+    <p>&emsp;</p>
+    <p>&emsp;&emsp;-r, --reverse</p>
+    <p>&emsp;&emsp;&emsp;&emsp;reverse order while sorting</p>
+    <p>&emsp;</p>
+    <p>&emsp;&emsp;-t</p>
+    <p>&emsp;&emsp;&emsp;&emsp;sort by modification time, newest first</p>
+    <p>&emsp;</p>
     <p>...</p>
   </div>
 </div>
+
+To navigate through the man pages, you may use `↑` and `↓` to move line-by-line, or try `B` and `Spacebar` to skip up and down by a full page. To search for a character or word in the `man` pages, use `/` followed by the character or word you are searching for. Sometimes a search will result in multiple hits. If so, you can move between hits using `N` (for moving forward) and `Shift+N` (for moving backward).
+
+To **quit** the man pages, press `Q`.
+
+
 
 ## Summary
 
