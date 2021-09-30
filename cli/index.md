@@ -1,3 +1,5 @@
+# Intro to Linux and CLI
+
 This lesson is building on top of previous lesson and you should already have:
  - linux environment,
  - github account,
