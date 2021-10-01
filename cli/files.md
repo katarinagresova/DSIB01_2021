@@ -199,4 +199,4 @@ Given that there is no way to retrieve files deleted using the shell, `rm -r` sh
 
 ---
 
-[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/filesystem.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | Next page
+[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/filesystem.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [Next page](https://katarinagresova.github.io/DSIB01_2021/cli/scripting.html)
