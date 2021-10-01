@@ -8,7 +8,9 @@ Goal of this exercise is to get data that will be used in future practicals. Whi
 - update downloaded script according to comments
 - run created script to download data
 - push script to github
-  - *hint: look at [Adding a file to a repository using the command line](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)*
+  - *hint: follow [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)*
+  - *hint: follow [How to Configure Git Username and Email Address](https://linuxize.com/post/how-to-configure-git-username-and-email/)*
+  - *hint: follow [Adding a file to a repository using the command line](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)*
 - update README.md file with ulr of chosen experiment
 - examine downloaded files
   - look at content
