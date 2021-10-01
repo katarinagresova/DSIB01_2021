@@ -35,7 +35,7 @@ We'll use a program called `echo` It will merely print whatever you place after 
     <p>#!/bin/bash</p>
     <p># A simple demonstration script</p>
     <p># Gresova 1.10.2021</p>
-    <p><&emsp;</p>
+    <p>&emsp;</p>
     <p>echo "Here are the files in your current directory:"</p>
     <p>ls</p>
   </div>
@@ -54,3 +54,42 @@ To run our script, we need to specify path to it. We can use relative path `./my
   </div>
 </div>
  
+### Variables
+
+A variable is a container for a simple piece of data. They are useful if we need to work out a particular thing and then use it later on. Variables are easy to set and refer to but they have a specific syntax that must be followed exactly for them to work.
+
+- When we set a variable, we specify it's name, followed directly by an equals sign (`=`) followed directly by the value. (So, no spaces on either side of the `=` sign.)
+- When we refer to a variable, we must place a dollar sign (`$`) before the variable name.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ nano variable.sh</p>
+  </div>
+</div> 
+
+<div class="console">
+  <header>
+    <p>Nano</p>
+  </header>
+  <div class="consolebody">
+    <p>#!/bin/bash</p>
+    <p># A simple demonstration of variables</p>
+    <p># Gresova 1.10.2021</p>
+    <p>&emsp;</p>
+    <p>name='Katarina'</p>
+    <p>echo Hello $name</p>
+  </div>
+</div> 
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ./variables.sh</p>
+    <p>Hello Katarina</p>
+  </div>
+</div>
