@@ -35,7 +35,7 @@ We'll use a program called `echo` It will merely print whatever you place after 
     <p>#!/bin/bash</p>
     <p># A simple demonstration script</p>
     <p># Gresova 1.10.2021</p>
-    <p><&emsp;/p>
+    <p><&emsp;</p>
     <p>echo "Here are the files in your current directory:"</p>
     <p>ls</p>
   </div>
