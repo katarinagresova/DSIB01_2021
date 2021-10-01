@@ -37,7 +37,8 @@ This lesson guides you through the basics of file systems and the command line i
 
  - **relative path:** a file or directory location relative to where we currently are in the file system
  - **absolute path:** a file or directory location in relation to the root of the file system
- - The Linux command line does not have an undo feature. Perform destructive actions carefully.
+ - use **`Tab`** key to autocomplete paths
+ - the Linux command line does not have an undo feature - perform destructive actions carefully
 
 ## References
 
