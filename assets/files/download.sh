@@ -15,7 +15,8 @@ do
 	url=$BASE_URL/$file/@@download/$file.fastq.gz
 	echo File URL: $url
 
-	#TODO: download file. hint: look at command wget
+	#downloading file
+	wget $url
 	
 	#unzip downloaded file. zipped version is automaticaly deleted.
 	gunzip $file.fastq.gz
