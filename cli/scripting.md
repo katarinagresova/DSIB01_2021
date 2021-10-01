@@ -142,3 +142,7 @@ There are other variables but these should be enough to get you going for now.
     <p>And the 2nd command line argument is fred</p>
   </div>
 </div>
+
+---
+
+[Previous page](https://katarinagresova.github.io/DSIB01_2021/cli/files.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/cli/index.html) | [next page](https://katarinagresova.github.io/DSIB01_2021/cli/exercise.html)
