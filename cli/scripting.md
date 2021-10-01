@@ -89,7 +89,56 @@ A variable is a container for a simple piece of data. They are useful if we need
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ ./variables.sh</p>
+    <p>$ ./variable.sh</p>
     <p>Hello Katarina</p>
+  </div>
+</div>
+
+### Command line arguments
+
+When we run a script, there are several variables that get set automatically for us. Here are some of them:
+
+- `$0` - The name of the script.
+- `$1` - `$9` - Any command line arguments given to the script. `$1` is the first argument, `$2` the second and so on.
+- `$#` - How many command line arguments were given to the script.
+- `$*` - All of the command line arguments.
+- 
+There are other variables but these should be enough to get you going for now.
+
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ nano morevariables.sh</p>
+  </div>
+</div> 
+
+
+<div class="console">
+  <header>
+    <p>Nano</p>
+  </header>
+  <div class="consolebody">
+    <p>#!/bin/bash</p>
+    <p># A simple demonstration of command line arguments</p>
+    <p># Gresova 1.10.2021</p>
+    <p>&emsp;</p>
+    <p>echo My name is $0 and I have been given $# command line arguments</p>
+    <p>echo Here they are: $*</p>
+    <p>echo And the 2nd command line argument is $2</p>
+  </div>
+</div> 
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ ./morevariables.sh bob fred sally</p>
+    <p>My name is morevariables.sh and I have been given 3 command line arguments</p>
+    <p>Here they are: bob fred sally</p>
+    <p>And the 2nd command line argument is fred</p>
   </div>
 </div>
