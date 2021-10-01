@@ -82,7 +82,7 @@ Up to now, we already have our terminal full of information. We use `clear` comm
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ ls</p>
+    <p>$</p>
   </div>
 </div>
 
