@@ -13,10 +13,10 @@ Goal of this exercise is to get data that will be used in future practicals. Whi
   - delete zip files
 - run created script to download data
 - push script to github
-  - *hint: look at [Adding a file to a repository using the command line](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)
+  - *hint: look at [Adding a file to a repository using the command line](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)*
 - examine downloaded files
   - look at content
-    - *hint: look at `head` command
+    - *hint: look at `head` command*
 
 ---
 
