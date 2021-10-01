@@ -31,6 +31,7 @@ This lesson guides you through the basics of file systems and the command line i
  - **`cp`:** copy a file or directory
  - **`mv`:** move a file or directory
  - **`rm`:** remove a file
+ - **`echo`:** print a message to the screen
 
 ### Concepts
 
