@@ -6,3 +6,33 @@ Modern sequencing technologies can generate a massive number of sequence reads i
 
 Therefore, it is necessary to understand, identify and exclude error-types that may impact the interpretation of downstream analysis. Sequence quality control is therefore an essential first step in your analysis. Catching errors early saves time later on.
 
+## Assessing quality with FastQC
+
+To take a look at sequence quality along all sequences, we can use [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/). It provides a modular set of analyses which you can use to check whether your data has any problems of which you should be aware before doing any further analysis. We can use it, for example, to assess whether there are known adapters present in the data.
+
+### Installing FastQC
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ sudo apt install fastqc</p>
+    <p>sudo password for student:</p>
+  </div>
+</div>
+
+### Per base sequence quality
+
+### Adapter Content
+
+### Per sequence quality scores
+
+### Per base sequence content
+
+### Per sequence GC content
+
+### Sequence length distribution
+
+### Sequence Duplication Levels
+
