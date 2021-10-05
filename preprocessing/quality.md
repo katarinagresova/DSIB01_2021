@@ -43,7 +43,7 @@ Now we can use `File` -> `Open...` and select a file we want to examine.
 
 With FastQC we can use the per base sequence quality plot to check the base quality of the reads. 
 
-![Per base sequence quality](https://github.com/katarinagresova/DSIB01_2021/raw/gh-pages/assets/img/per_base_sequence_quality.png)
+![Per base sequence quality](https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/img/per_base_sequence_quality.png)
 
 On the x-axis are the base position in the read. In this example, the sample contains reads that are up to 45 bp long. For each position, a boxplot is drawn with:
 
