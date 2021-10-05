@@ -52,6 +52,8 @@ The y-axis shows the quality scores. The higher the score, the better the base c
 
 ### Adapter Content
 
+The plot shows the cumulative percentage of reads with the different adapter sequences at each position. Once an adapter sequence is seen in a read it is counted as being present right through to the end of the read so the percentage increases with the read length. FastQC can detect some adapters by default (e.g. Illumina, Nextera), for others we could provide a contaminants file as an input to the FastQC tool. We can run an trimming tool such as Cutadapt to remove this adapter. We will explain that process in future section.
+
 ### Per sequence quality scores
 
 ### Per base sequence content
