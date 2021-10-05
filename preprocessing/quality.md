@@ -36,3 +36,6 @@ To take a look at sequence quality along all sequences, we can use [FastQC](http
 
 ### Sequence Duplication Levels
 
+---
+
+[Previous page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/) | [Home](https://katarinagresova.github.io/DSIB01_2021/preprocessing/) | [Next page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/umi.html)
