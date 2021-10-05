@@ -12,6 +12,8 @@ To take a look at sequence quality along all sequences, we can use [FastQC](http
 
 ### Installing FastQC
 
+To install FastQC in Linux environment, we can use packaga management tool `apt`.
+
 <div class="console">
   <header>
     <p>Terminal</p>
