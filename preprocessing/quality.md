@@ -41,7 +41,14 @@ Now we can use `File` -> `Open...` and select a file we want to examine.
 
 ### Per base sequence quality
 
-With FastQC we can use the per base sequence quality plot to check the base quality of the reads. 
+With FastQC we can use the per base sequence quality plot to check the base quality of the reads. On the x-axis are the base position in the read. In this example, the sample contains reads that are up to 44 bp long. For each position, a boxplot is drawn with:
+
+- the median value, represented by the central red line
+- the inter-quartile range (25-75%), represented by the yellow box
+- the 10% and 90% values in the upper and lower whiskers
+- the mean quality, represented by the blue line
+
+The y-axis shows the quality scores. The higher the score, the better the base call. The background of the graph divides the y-axis into very good quality scores (green), scores of reasonable quality (orange), and reads of poor quality (red).
 
 ### Adapter Content
 
