@@ -37,6 +37,8 @@ We can start FasQC program by typing `fastqc` into command line.
   </div>
 </div>
 
+Now we can use `File` -> `Open...` and select a file we want to examine.
+
 ### Per base sequence quality
 
 With FastQC we can use the per base sequence quality plot to check the base quality of the reads. 
