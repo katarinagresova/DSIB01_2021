@@ -66,9 +66,9 @@ We can run an trimming tool such as Cutadapt to remove this adapter. We will exp
 
 Per Base Sequence Content plots the percentage of each of the four nucleotides (T, C, A, G) at each position across all reads in the input sequence file. As for the per base sequence quality, the x-axis is non-uniform.
 
-In a random library we would expect that there would be little to no difference between the four bases. The proportion of each of the four bases should remain relatively constant over the length of the read with `%A=%T` and `%G=%C`, and the lines in this plot should run parallel with each other. 
+![Per base sequence content](https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/img/per_base_sequence_content.png)
 
-ChIP-seq data can encounter read start sequence biases in this plot if fragmenting with transposases.
+In a random library we would expect that there would be little to no difference between the four bases. The proportion of each of the four bases should remain relatively constant over the length of the read with `%A=%T` and `%G=%C`, and the lines in this plot should run parallel with each other. ChIP-seq data can encounter read start sequence biases in this plot if fragmenting with transposases.
 
 ### Per sequence GC content
 
