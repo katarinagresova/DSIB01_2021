@@ -24,7 +24,22 @@ To install FastQC in Linux environment, we can use packaga management tool `apt`
   </div>
 </div>
 
+### Running FastQC
+
+We can start FasQC program by typing `fastqc` into command line.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ fastqc</p>
+  </div>
+</div>
+
 ### Per base sequence quality
+
+With FastQC we can use the per base sequence quality plot to check the base quality of the reads. 
 
 ### Adapter Content
 
