@@ -45,6 +45,8 @@ With FastQC we can use the per base sequence quality plot to check the base qual
 
 ![Per base sequence quality](https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/img/per_base_sequence_quality.png)
 
+<img src="https://github.com/katarinagresova/DSIB01_2021/raw/gh-pages/assets/img/per_base_sequence_quality.png" alt="Per base sequence quality" width="1000">
+
 On the x-axis are the base position in the read. In this example, the sample contains reads that are up to 45 bp long. For each position, a boxplot is drawn with:
 
 - the median value, represented by the central red line
