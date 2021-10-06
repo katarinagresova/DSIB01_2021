@@ -12,14 +12,14 @@ To take a look at sequence quality along all sequences, we can use [FastQC](http
 
 ### Installing FastQC
 
-To install FastQC in Linux environment, we can use packaga management tool `apt`.
+To install FastQC in Linux environment, we can use package management tool `conda`.
 
 <div class="console">
   <header>
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ sudo apt install fastqc</p>
+    <p>$ conda install -c bioconda fastqc</p>
     <p>sudo password for student:</p>
   </div>
 </div>
