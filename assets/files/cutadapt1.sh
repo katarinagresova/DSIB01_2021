@@ -4,7 +4,7 @@
 reads1=reads1.fastq
 reads2=reads2.fastq
 
-cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 \
+cutadapt --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 \
 -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \
 -g CTTCCGATCTACAAGTT -g CTTCCGATCTTGGTCCT \
 -A AACTTGTAGATCGGA -A AGGACCAAGATCGGA \
