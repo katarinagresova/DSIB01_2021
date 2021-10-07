@@ -110,8 +110,6 @@ Firs, we need to specify names of files with our raw sequences. Then we can run 
 - **`$reads2`:** 
   - Input file with reverse reads.
 
-Specific parameters and their values were taken from eCLIP-seq Processing Pipeline Protocol, Yeo Lab, UCSD, [https://www.encodeproject.org/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/@@download/attachment/eCLIP_analysisSOP_v2.2.pdf](https://www.encodeproject.org/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/@@download/attachment/eCLIP_analysisSOP_v2.2.pdf)
-
 ### Trimming off the 3’ adapters on read 2
 
 For eCLIP data, it was suggested to apply two rounds of adapter trimming to correct for possible double ligations events.
