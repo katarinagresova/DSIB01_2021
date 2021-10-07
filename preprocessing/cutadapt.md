@@ -45,34 +45,44 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 
-      -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 
-      -g CTTCCGATCTACAAGTT 
-      -g CTTCCGATCTTGGTCCT 
-      -A AACTTGTAGATCGGA 
-      -A AGGACCAAGATCGGA 
-      -A ACTTGTAGATCGGAA 
-      -A GGACCAAGATCGGAA 
-      -A CTTGTAGATCGGAAG 
-      -A GACCAAGATCGGAAG 
-      -A TTGTAGATCGGAAGA 
-      -A ACCAAGATCGGAAGA 
-      -A TGTAGATCGGAAGAG 
-      -A CCAAGATCGGAAGAG 
-      -A GTAGATCGGAAGAGC 
-      -A CAAGATCGGAAGAGC 
-      -A TAGATCGGAAGAGCG 
-      -A AAGATCGGAAGAGCG 
-      -A AGATCGGAAGAGCGT 
-      -A GATCGGAAGAGCGTC 
-      -A ATCGGAAGAGCGTCG 
-      -A TCGGAAGAGCGTCGT 
-      -A CGGAAGAGCGTCGTG 
-      -A GGAAGAGCGTCGTGT 
-      -o EXAMPLE_PE.rep2_clip.C01.r1.fqTr.fq 
-      -p EXAMPLE_PE.rep2_clip.C01.r2.fqTr.fq 
-      EXAMPLE_PE.rep2_clip.C01.r1.fq.gz 
-      EXAMPLE_PE.rep2_clip.C01.r2.fq.gz</p>
+    <p>(cutadaptenv)$ cat cutadapt1.sh</p>
+    <p>
+      cutadapt \  
+      -f fastq \  
+      --match-read-wildcards \  
+      --times 1 \  
+      -e 0.1 \  
+      -O 1 \  
+      --quality-cutoff 6 \  
+      -m 18 \  
+      -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \  
+      -g CTTCCGATCTACAAGTT \  
+      -g CTTCCGATCTTGGTCCT \  
+      -A AACTTGTAGATCGGA \  
+      -A AGGACCAAGATCGGA \  
+      -A ACTTGTAGATCGGAA \  
+      -A GGACCAAGATCGGAA \  
+      -A CTTGTAGATCGGAAG \  
+      -A GACCAAGATCGGAAG \  
+      -A TTGTAGATCGGAAGA \  
+      -A ACCAAGATCGGAAGA \  
+      -A TGTAGATCGGAAGAG \  
+      -A CCAAGATCGGAAGAG \  
+      -A GTAGATCGGAAGAGC \  
+      -A CAAGATCGGAAGAGC \  
+      -A TAGATCGGAAGAGCG \  
+      -A AAGATCGGAAGAGCG \  
+      -A AGATCGGAAGAGCGT \  
+      -A GATCGGAAGAGCGTC \  
+      -A ATCGGAAGAGCGTCG \  
+      -A TCGGAAGAGCGTCGT \  
+      -A CGGAAGAGCGTCGTG \  
+      -A GGAAGAGCGTCGTGT \  
+      -o EXAMPLE_PE.rep2_clip.C01.r1.fqTr.fq \  
+      -p EXAMPLE_PE.rep2_clip.C01.r2.fqTr.fq \   
+      EXAMPLE_PE.rep2_clip.C01.r1.fq.gz \  
+      EXAMPLE_PE.rep2_clip.C01.r2.fq.gz  
+    </p>
   </div>
 </div>
 
