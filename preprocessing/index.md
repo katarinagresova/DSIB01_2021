@@ -7,7 +7,7 @@ This lesson guides you through the starting steps of eCLIP data analysis - quali
 
 ## Table of content
 - [Quality control](https://katarinagresova.github.io/DSIB01_2021/preprocessing/quality.html)
-- [Adaptor trimming](https://katarinagresova.github.io/DSIB01_2021/preprocessing/cutadapt.html)
+- [Adapter trimming](https://katarinagresova.github.io/DSIB01_2021/preprocessing/cutadapt.html)
 - [Second quality control](https://katarinagresova.github.io/DSIB01_2021/preprocessing/second_quality.html)
 - [Exercise](https://katarinagresova.github.io/DSIB01_2021/preprocessing/exercise.html)
 
