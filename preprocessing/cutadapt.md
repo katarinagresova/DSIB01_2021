@@ -39,7 +39,7 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
 
 ### Triming off both 5’ and 3’ adapters on both reads
 
-Final command is quite long, so we can download it as a script.
+Whole `cutadapt` command is quite long, so we can download it as a script.
 
 <div class="console">
   <header>
@@ -81,6 +81,23 @@ Let's look at the content of a script.
     <p>  $reads1 $reads2  </p>
   </div>
 </div>
+
+Firs, we need to specify names of files with our raw sequences. Then we can run `cutadapt` command. We have several parameters there:
+- **`--match-read-wildcards`:** Wildcard characters (IUPAC nucleotide codes) are by default only allowed in adapter sequences and are not recognized when they occur in a read. `--match-read-wildcards` enablse wildcards also in reads.
+- **`--times 1`:** By default, at most one adapter sequence is removed from each read, even if multiple adapter sequences were provided. This can be changed by using the `--times` option). Cutadapt will then search for all the given adapter sequences repeatedly, either until no adapter match was found or until the specified number of rounds was reached.
+- **`-e 0.1`:** The `-e` option on the command line allows you to change the maximum error rate. If the value is between `0` and `1` (but not `1` exactly), then this sets the maximum error rate directly for all specified adapters. The default is `-e 0.1`. Alternatively, you can also specify a value of `1` or greater as the number of allowed errors, which is then converted to a maximum error rate for each adapter individually. For example, with an adapter of length `10`, using `-e 2` will set the maximum error rate to `0.2` for an adapter of length `10`.
+- **`-O 1`:** Since Cutadapt allows partial matches between the read and the adapter sequence, short matches can occur by chance, leading to erroneously trimmed bases. For example, roughly `25%` of all reads end with a base that is identical to the first base of the adapter. To reduce the number of falsely trimmed bases, the alignment algorithm requires that, by default, at least three bases match between adapter and read. This minimum overlap length can be changed globally (for all adapters) with the parameter `-O`. 
+- **`--quality-cutoff 6`:** The `--quality-cutoff` parameter can be used to trim low-quality ends from reads. If you specify a single cutoff value, the `3’` end of each read is trimmed. For Illumina reads, this is sufficient as their quality is high at the beginning, but degrades towards the `3’` end. It is also possible to also trim from the `5’` end by specifying two comma-separated cutoffs as `5’ cutoff`,`3’ cutoff`. Quality trimming is done before any adapter trimming.
+- **`-m 18`:** The `-m` parameter discard processed reads that are shorter than `LENGTH`. If you do not use this option, reads that have a length of zero (empty reads) are kept in the output. Some downstream tools may have problems with zero-length sequences. In that case, specify at least `-m 1`.
+- **`-a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC`:** The `-a` parameter specifies `3’` adapter in forward read.
+- **`-g CTTCCGATCTACAAGTT`:** The `-g` parameter specifies `5’` adapter in forward read.
+- **`-A AACTTGTAGATCGGA`:** The `-A` parameter specifies `3’` adapter in reverse read.
+- **`-o reads1_trimmed.fastq`:** By default, all processed reads, no matter whether they were trimmed or not, are written to the output file specified by the `-o` option.
+- **`-p reads2_trimmed.fastq`:** For paired-end reads, the second read in a pair is always written to the file specified by the `-p` option.
+- **`$reads1`:** Input file with forward reads.
+- **`$reads2`:** Input file with reverse reads.
+
+Specific parameters and their values were taken from eCLIP-seq Processing Pipeline Protocol, Yeo Lab, UCSD, [https://www.encodeproject.org/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/@@download/attachment/eCLIP_analysisSOP_v2.2.pdf](https://www.encodeproject.org/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/@@download/attachment/eCLIP_analysisSOP_v2.2.pdf)
 
 ### Trimming off the 3’ adapters on read 2
 
