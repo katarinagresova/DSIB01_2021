@@ -64,7 +64,7 @@ Let's look at the content of a script.
     <p>reads1=reads1.fastq</p>
     <p>reads2=reads2.fastq</p>
     <p>&nbsp;</p>
-    <p>cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 \  </p>
+    <p>cutadapt --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 \  </p>
     <p>  -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \  </p>
     <p>  -g CTTCCGATCTACAAGTT -g CTTCCGATCTTGGTCCT \  </p>
     <p>  -A AACTTGTAGATCGGA -A AGGACCAAGATCGGA \  </p>
@@ -103,7 +103,7 @@ For eCLIP data, it was suggested to apply two rounds of adapter trimming to corr
     <p>(cutadaptenv)$ cat cutadapt2.sh</p>
     <p>#!/bin/bash</p>
     <p>&nbsp;</p>
-    <p>cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 5 --quality-cutoff 6 -m 18 \  </p>
+    <p>cutadapt --match-read-wildcards --times 1 -e 0.1 -O 5 --quality-cutoff 6 -m 18 \  </p>
     <p>  -A AACTTGTAGATCGGA -A AGGACCAAGATCGGA \  </p>
     <p>  -A ACTTGTAGATCGGAA -A GGACCAAGATCGGAA \  </p>
     <p>  -A CTTGTAGATCGGAAG -A GACCAAGATCGGAAG \  </p>
