@@ -1,4 +1,18 @@
-## Adaptor trimming
+# Adaptor trimming
+
+
+### Installing cutadapt
+
+To install `cutadapt` in Linux environment, we can use package management tool `conda`. 
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ conda install -c bioconda cutadapt</p>
+  </div>
+</div>
 
 ---
 
