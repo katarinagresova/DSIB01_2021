@@ -81,9 +81,19 @@ An unusually-shaped distribution could indicate a contaminated library or some o
 
 But there are also other situations in which an unusually-shaped distribution may occur. For example, with RNA sequencing there may be a greater or lesser distribution of mean GC content among transcripts causing the observed plot to be wider or narrower than an ideal normal distribution.
 
-### Sequence length distribution
-
 ### Sequence Duplication Levels
+
+The graph shows in blue the percentage of reads of a given sequence in the file which are present a given number of times in the file.
+
+![Duplication level](https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/img/duplication_level.png)
+
+In a diverse library most sequences will occur only once in the final set. A low level of duplication may indicate a very high level of coverage of the target sequence, but a high level of duplication is more likely to indicate some kind of enrichment bias.
+
+Two sources of duplicate reads can be found:
+- PCR duplication in which library fragments have been over-represented due to biased PCR enrichment. It is a concern because PCR duplicates misrepresent the true proportion of sequences in the input.
+- Truly over-represented sequences such as very abundant transcripts in an RNA-Seq library or in amplicon data (like in our sample). It is an expected case and not of concern because it does faithfully represent the input.
+
+
 
 ---
 
