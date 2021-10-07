@@ -46,14 +46,7 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
   </header>
   <div class="consolebody">
     <p>(cutadaptenv)$ cat cutadapt1.sh</p>
-    <p>cutadapt \  </p>
-    <p> -f fastq \  </p>
-    <p> --match-read-wildcards \  </p>
-    <p>  --times 1 \  </p>
-    <p>  -e 0.1 \  </p>
-    <p>  -O 1 \  </p>
-    <p>  --quality-cutoff 6 \  </p>
-    <p>  -m 18 \  </p>
+    <p>cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 \  </p>
     <p>  -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \  </p>
     <p>  -g CTTCCGATCTACAAGTT \  </p>
     <p>  -g CTTCCGATCTTGGTCCT \  </p>
@@ -77,10 +70,8 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
     <p>  -A TCGGAAGAGCGTCGT \  </p>
     <p>  -A CGGAAGAGCGTCGTG \  </p>
     <p>  -A GGAAGAGCGTCGTGT \  </p>
-    <p>  -o EXAMPLE_PE.rep2_clip.C01.r1.fqTr.fq \  </p>
-    <p>  -p EXAMPLE_PE.rep2_clip.C01.r2.fqTr.fq \   </p>
-    <p>  EXAMPLE_PE.rep2_clip.C01.r1.fq.gz \  </p>
-    <p>  EXAMPLE_PE.rep2_clip.C01.r2.fq.gz  </p>
+    <p>  -o EXAMPLE_PE.rep2_clip.C01.r1.fqTr.fq -p EXAMPLE_PE.rep2_clip.C01.r2.fqTr.fq \   </p>
+    <p>  EXAMPLE_PE.rep2_clip.C01.r1.fq.gz EXAMPLE_PE.rep2_clip.C01.r2.fq.gz  </p>
     </p>
   </div>
 </div>
