@@ -3,7 +3,7 @@
 This lesson is building on top of previous lesson and you should already have:
 - downloaded eCLIP raw sequencing data
 
-This lesson guides you through the starting steps of eCLIP data analysis - quality control, demultiplexing and removal of unwanted sequences.
+This lesson guides you through the starting steps of eCLIP data analysis - quality control and adapter trimming.
 
 ## Table of content
 - [Quality control](https://katarinagresova.github.io/DSIB01_2021/preprocessing/quality.html)
