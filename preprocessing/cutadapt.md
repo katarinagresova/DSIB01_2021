@@ -39,6 +39,8 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
 
 ### Triming off both 5’ and 3’ adapters on both reads
 
+Final command is quite long, so we can download it as a script.
+
 <div class="console">
   <header>
     <p>Terminal</p>
@@ -47,6 +49,8 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
     <p>(cutadaptenv)$ wget https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/files/cutadapt1.sh</p>
   </div>
 </div>
+
+Let's look at the content of a script.
 
 <div class="console">
   <header>
