@@ -4,7 +4,7 @@ Unique Molecular Identifiers (UMIs) are complex indices added to sequencing libr
 
 ![UMIs](https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/img/umis.png)
 
-## Useing umi_tools to extract unique molecular barcodes
+## Using umi_tools to extract unique molecular barcodes
 
 
 
