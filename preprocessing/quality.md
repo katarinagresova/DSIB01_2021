@@ -96,4 +96,4 @@ Two sources of duplicate reads can be found:
 
 ---
 
-[Previous page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/) | [Home](https://katarinagresova.github.io/DSIB01_2021/preprocessing/) | [Next page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/umi.html)
+[Previous page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/) | [Home](https://katarinagresova.github.io/DSIB01_2021/preprocessing/) | [Next page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/cutadapt.html)
