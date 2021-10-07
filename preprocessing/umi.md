@@ -4,6 +4,10 @@ Unique Molecular Identifiers (UMIs) are complex indices added to sequencing libr
 
 ![UMIs](https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/img/umis.png)
 
+## Useing umi_tools to extract unique molecular barcodes
+
+
+
 ### Installing umi_tools
 
 To install `umi_tools` in Linux environment, we can use package management tool `conda`. But first, we need to make sure that we have correct version of `python` by creating environment with `python3.7`.
