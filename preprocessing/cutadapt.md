@@ -39,6 +39,14 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
 
 ### Triming off both 5’ and 3’ adapters on both reads
 
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>(cutadaptenv)$ wget https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/files/cutadapt1.sh</p>
+  </div>
+</div>
 
 <div class="console">
   <header>
@@ -48,8 +56,10 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
     <p>(cutadaptenv)$ cat cutadapt1.sh</p>
     <p>#!/bin/bash</p>
     <p>#TODO: insert names of your downloaded files</p>
+    <p> </p>
     <p>reads1=reads1.fastq</p>
     <p>reads2=reads2.fastq</p>
+    <p> <p>
     <p>cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 \  </p>
     <p>  -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \  </p>
     <p>  -g CTTCCGATCTACAAGTT -g CTTCCGATCTTGGTCCT \  </p>
