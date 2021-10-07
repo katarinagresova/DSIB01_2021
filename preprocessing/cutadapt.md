@@ -46,33 +46,25 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
   </header>
   <div class="consolebody">
     <p>(cutadaptenv)$ cat cutadapt1.sh</p>
+    <p>#!/bin/bash</p>
+    <p>#TODO: insert names of your downloaded files</p>
+    <p>reads1=reads1.fastq</p>
+    <p>reads2=reads2.fastq</p>
     <p>cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 \  </p>
     <p>  -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \  </p>
-    <p>  -g CTTCCGATCTACAAGTT \  </p>
-    <p>  -g CTTCCGATCTTGGTCCT \  </p>
-    <p>  -A AACTTGTAGATCGGA \  </p>
-    <p>  -A AGGACCAAGATCGGA \  </p>
-    <p>  -A ACTTGTAGATCGGAA \  </p>
-    <p>  -A GGACCAAGATCGGAA \  </p>
-    <p>  -A CTTGTAGATCGGAAG \  </p>
-    <p>  -A GACCAAGATCGGAAG \  </p>
-    <p>  -A TTGTAGATCGGAAGA \  </p>
-    <p>  -A ACCAAGATCGGAAGA \  </p>
-    <p>  -A TGTAGATCGGAAGAG \  </p>
-    <p>  -A CCAAGATCGGAAGAG \  </p>
-    <p>  -A GTAGATCGGAAGAGC \  </p>
-    <p>  -A CAAGATCGGAAGAGC \  </p>
-    <p>  -A TAGATCGGAAGAGCG \  </p>
-    <p>  -A AAGATCGGAAGAGCG \  </p>
-    <p>  -A AGATCGGAAGAGCGT \  </p>
-    <p>  -A GATCGGAAGAGCGTC \  </p>
-    <p>  -A ATCGGAAGAGCGTCG \  </p>
-    <p>  -A TCGGAAGAGCGTCGT \  </p>
-    <p>  -A CGGAAGAGCGTCGTG \  </p>
-    <p>  -A GGAAGAGCGTCGTGT \  </p>
-    <p>  -o EXAMPLE_PE.rep2_clip.C01.r1.fqTr.fq -p EXAMPLE_PE.rep2_clip.C01.r2.fqTr.fq \   </p>
-    <p>  EXAMPLE_PE.rep2_clip.C01.r1.fq.gz EXAMPLE_PE.rep2_clip.C01.r2.fq.gz  </p>
-    </p>
+    <p>  -g CTTCCGATCTACAAGTT -g CTTCCGATCTTGGTCCT \  </p>
+    <p>  -A AACTTGTAGATCGGA -A AGGACCAAGATCGGA \  </p>
+    <p>  -A ACTTGTAGATCGGAA -A GGACCAAGATCGGAA \  </p>
+    <p>  -A CTTGTAGATCGGAAG -A GACCAAGATCGGAAG \  </p>
+    <p>  -A TTGTAGATCGGAAGA -A ACCAAGATCGGAAGA \  </p>
+    <p>  -A TGTAGATCGGAAGAG -A CCAAGATCGGAAGAG \  </p>
+    <p>  -A GTAGATCGGAAGAGC -A CAAGATCGGAAGAGC \  </p>
+    <p>  -A TAGATCGGAAGAGCG -A AAGATCGGAAGAGCG \  </p>
+    <p>  -A AGATCGGAAGAGCGT -A GATCGGAAGAGCGTC \  </p>
+    <p>  -A ATCGGAAGAGCGTCG -A TCGGAAGAGCGTCGT \  </p>
+    <p>  -A CGGAAGAGCGTCGTG -A GGAAGAGCGTCGTGT \  </p>
+    <p>  -o reads1_trimmed.fastq -p reads2_trimmed.fastq \   </p>
+    <p>  $reads1 $reads2  </p>
   </div>
 </div>
 
