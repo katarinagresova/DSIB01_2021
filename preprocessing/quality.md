@@ -20,7 +20,6 @@ To install FastQC in Linux environment, we can use package management tool `cond
   </header>
   <div class="consolebody">
     <p>$ conda install -c bioconda fastqc</p>
-    <p>sudo password for student:</p>
   </div>
 </div>
 
