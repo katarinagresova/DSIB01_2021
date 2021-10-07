@@ -14,7 +14,9 @@ To install `cutadapt` in Linux environment, we can use package management tool `
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ conda install -c bioconda cutadapt</p>
+    <p>$ conda create -n cutadaptenv -c bioconda -c conda-forge cutadapt</p>
+    <p>$ conda activate cutadaptenv</p>
+    <p>(cutadaptenv)$</p>
   </div>
 </div>
 
@@ -27,13 +29,52 @@ To trim a 3’ adapter, the basic command-line for cutadapt is:
     <p>Terminal</p>
   </header>
   <div class="consolebody">
-    <p>$ cutadapt -a AACCGGTT -o output.fastq input.fastq</p>
+    <p>(cutadaptenv)$ cutadapt -a AACCGGTT -o output.fastq input.fastq</p>
   </div>
 </div>
 
 The sequence of the adapter is given with the `-a` option. You need to replace `AACCGGTT` with the correct adapter sequence. Reads are read from the input file `input.fastq` and are written to the output file `output.fastq`.
 
 Cutadapt searches for the adapter in all reads and removes it when it finds it. Unless you use a filtering option, all reads that were present in the input file will also be present in the output file, some of them trimmed, some of them not. Even reads that were trimmed to a length of zero are output. All of this can be changed with command-line options, explained further down.
+
+### Triming off both 5’ and 3’ adapters on both reads
+
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>$ cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 
+      -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 
+      -g CTTCCGATCTACAAGTT 
+      -g CTTCCGATCTTGGTCCT 
+      -A AACTTGTAGATCGGA 
+      -A AGGACCAAGATCGGA 
+      -A ACTTGTAGATCGGAA 
+      -A GGACCAAGATCGGAA 
+      -A CTTGTAGATCGGAAG 
+      -A GACCAAGATCGGAAG 
+      -A TTGTAGATCGGAAGA 
+      -A ACCAAGATCGGAAGA 
+      -A TGTAGATCGGAAGAG 
+      -A CCAAGATCGGAAGAG 
+      -A GTAGATCGGAAGAGC 
+      -A CAAGATCGGAAGAGC 
+      -A TAGATCGGAAGAGCG 
+      -A AAGATCGGAAGAGCG 
+      -A AGATCGGAAGAGCGT 
+      -A GATCGGAAGAGCGTC 
+      -A ATCGGAAGAGCGTCG 
+      -A TCGGAAGAGCGTCGT 
+      -A CGGAAGAGCGTCGTG 
+      -A GGAAGAGCGTCGTGT 
+      -o EXAMPLE_PE.rep2_clip.C01.r1.fqTr.fq 
+      -p EXAMPLE_PE.rep2_clip.C01.r2.fqTr.fq 
+      EXAMPLE_PE.rep2_clip.C01.r1.fq.gz 
+      EXAMPLE_PE.rep2_clip.C01.r2.fq.gz</p>
+  </div>
+</div>
 
 ---
 
