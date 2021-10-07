@@ -149,6 +149,8 @@ For eCLIP data, it was suggested to apply two rounds of adapter trimming to corr
   </div>
 </div>
 
+Specific parameters and their values were taken from eCLIP-seq Processing Pipeline Protocol, Yeo Lab, UCSD, [https://www.encodeproject.org/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/@@download/attachment/eCLIP_analysisSOP_v2.2.pdf](https://www.encodeproject.org/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/@@download/attachment/eCLIP_analysisSOP_v2.2.pdf)
+
 ---
 
 [Previous page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/quality.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/preprocessing/) | [Next page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/second_quality.html)
