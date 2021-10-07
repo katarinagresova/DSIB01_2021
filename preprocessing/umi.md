@@ -1,6 +1,8 @@
-## Identify unique molecular identifiers (UMIs)
+# Identify unique molecular identifiers (UMIs)
 
----
+Unique Molecular Identifiers (UMIs) are complex indices added to sequencing libraries before any PCR amplification steps, enabling the accurate bioinformatic identification of PCR duplicates. UMIs are also known as “Molecular Barcodes” or “Random Barcodes”.  The idea seems to have been first implemented in an iCLIP protocol.UMIs are valuable tools for both quantitative sequencing applications (e.g. RNA-Seq, ChIP-Seq) and also for genomic variant detection, especially the detection of rare mutations. UMI sequence information in conjunction with alignment coordinates enables grouping of sequencing data into read families representing individual sample DNA or RNA fragments. 
+
+![UMIs](https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/img/umis.png)
 
 ### Installing umi_tools
 
@@ -25,5 +27,7 @@ To install `umi_tools` in Linux environment, we can use package management tool 
     <p>(py37)$ conda install -c bioconda umi_tools</p>
   </div>
 </div>
+
+---
 
 [Previous page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/quality.html) | [Home](https://katarinagresova.github.io/DSIB01_2021/preprocessing/) | [Next page](https://katarinagresova.github.io/DSIB01_2021/preprocessing/demultiplex.html)
