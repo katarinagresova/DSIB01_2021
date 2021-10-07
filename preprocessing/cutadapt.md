@@ -18,7 +18,7 @@ To install `cutadapt` in Linux environment, we can use package management tool `
   </div>
 </div>
 
-## Basic usage
+### Basic usage
 
 To trim a 3’ adapter, the basic command-line for cutadapt is:
 
