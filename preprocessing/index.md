@@ -9,7 +9,7 @@ This lesson guides you through the starting steps of eCLIP data analysis - quali
 - [Quality control](https://katarinagresova.github.io/DSIB01_2021/preprocessing/quality.html)
 - [Identifying UMIs](https://katarinagresova.github.io/DSIB01_2021/preprocessing/umi.html)
 - [Demultiplexing](https://katarinagresova.github.io/DSIB01_2021/preprocessing/demultiplex.html)
-- [Removing unwanted sequences](https://katarinagresova.github.io/DSIB01_2021/preprocessing/cutadapt.html)
+- [Adaptor trimming](https://katarinagresova.github.io/DSIB01_2021/preprocessing/cutadapt.html)
 - [Second quality control](https://katarinagresova.github.io/DSIB01_2021/preprocessing/second_quality.html)
 
 ## References
