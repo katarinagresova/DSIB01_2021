@@ -56,10 +56,10 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
     <p>(cutadaptenv)$ cat cutadapt1.sh</p>
     <p>#!/bin/bash</p>
     <p>#TODO: insert names of your downloaded files</p>
-    <p> </p>
+    <p>&nbsp;</p>
     <p>reads1=reads1.fastq</p>
     <p>reads2=reads2.fastq</p>
-    <p> <p>
+    <p>&nbsp;</p>
     <p>cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 1 --quality-cutoff 6 -m 18 \  </p>
     <p>  -a NNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \  </p>
     <p>  -g CTTCCGATCTACAAGTT -g CTTCCGATCTTGGTCCT \  </p>
@@ -75,6 +75,43 @@ Cutadapt searches for the adapter in all reads and removes it when it finds it. 
     <p>  -A CGGAAGAGCGTCGTG -A GGAAGAGCGTCGTGT \  </p>
     <p>  -o reads1_trimmed.fastq -p reads2_trimmed.fastq \   </p>
     <p>  $reads1 $reads2  </p>
+  </div>
+</div>
+
+### Trimming off the 3’ adapters on read 2
+
+For eCLIP data, it was suggested to apply two rounds of adapter trimming to correct for possible double ligations events.
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>(cutadaptenv)$ wget https://raw.githubusercontent.com/katarinagresova/DSIB01_2021/gh-pages/assets/files/cutadapt2.sh</p>
+  </div>
+</div>
+
+<div class="console">
+  <header>
+    <p>Terminal</p>
+  </header>
+  <div class="consolebody">
+    <p>(cutadaptenv)$ cat cutadapt2.sh</p>
+    <p>#!/bin/bash</p>
+    <p>&nbsp;</p>
+    <p>cutadapt -f fastq --match-read-wildcards --times 1 -e 0.1 -O 5 --quality-cutoff 6 -m 18 \  </p>
+    <p>  -A AACTTGTAGATCGGA -A AGGACCAAGATCGGA \  </p>
+    <p>  -A ACTTGTAGATCGGAA -A GGACCAAGATCGGAA \  </p>
+    <p>  -A CTTGTAGATCGGAAG -A GACCAAGATCGGAAG \  </p>
+    <p>  -A TTGTAGATCGGAAGA -A ACCAAGATCGGAAGA \  </p>
+    <p>  -A TGTAGATCGGAAGAG -A CCAAGATCGGAAGAG \  </p>
+    <p>  -A GTAGATCGGAAGAGC -A CAAGATCGGAAGAGC \  </p>
+    <p>  -A TAGATCGGAAGAGCG -A AAGATCGGAAGAGCG \  </p>
+    <p>  -A AGATCGGAAGAGCGT -A GATCGGAAGAGCGTC \  </p>
+    <p>  -A ATCGGAAGAGCGTCG -A TCGGAAGAGCGTCGT \  </p>
+    <p>  -A CGGAAGAGCGTCGTG -A GGAAGAGCGTCGTGT \  </p>
+    <p>  -o reads1_trimmed2.fastq -p reads2_trimmed2.fastq \   </p>
+    <p>  reads1_trimmed.fastq reads2_trimmed.fastq  </p>
   </div>
 </div>
 
