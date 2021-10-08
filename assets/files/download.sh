@@ -9,7 +9,7 @@ FILES=(ENCFF959XKN)
 mkdir data
 cd data
 
-for file in $FILES
+for file in ${FILES[*]}
 do
 	# creating url of file
 	url=$BASE_URL/$file/@@download/$file.fastq.gz
